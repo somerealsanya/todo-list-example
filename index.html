@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Список дел</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <h1 class="page__title">Список дел</h1>
+
+    <p class="counter">Осталось дел: <span class="counter__value">0</span></p>
+
+    <div class="adder">
+      <input class="adder__field" id="newTask" type="text" placeholder="Новое дело">
+      <button class="btn" id="addBtn" type="button">Добавить</button>
+    </div>
+
+    <!-- список пустой: он целиком создаётся из массива в script.js -->
+    <ul class="todo">
+      <li></li>
+    </ul>
+  </main>
+</body>
+</html>
